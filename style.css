@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+*{
+margin:0;
+padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Acme', sans-serif;
+}
+body
+{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+#header{
+    background-color:#171c28; 
+    padding:70px 0px 70px 0px; 
+    min-height:100vh; 
+    height:100%;  
+    color:#fff; 
+}
+#whatwedo{
+    background-color: #f7f7f7;
+    padding:50px 0px 50px 0px;
+    min-height:300px;
+    border:1px solid #ccc;
+}
+#work img{
+    width:500px;
+    max-width:100%;
+    height:auto;
+}
+.arrow{
+    font-size:40px;
+}
+.btn-primary{
+    background-color:#3232dc;
+    border-radius:30px;
+    padding:10px 20px 10px 20px; 
+    border:none;
+}
+span{
+    color: #ff0033;
+}
+.avatar img{
+    border-radius:50%;
+    border:20px solid white;
+}
+#work{
+    background-color:#fff;
+    padding:40px 0px 40px 0px; 
+}
+#about{
+    background-color:#f2e3c9; 
+    padding:50px 0px 50px 0px;
+    min-height:400px; 
+}
+#about h1{
+    color:#FF5252; 
+}
+#skills{
+    background-color:#badfdb;
+    padding:40px 0px 40px 0px;
+    min-height:300px; 
+}
+#skills h1{
+    color:#00796B;
+
+}
+footer{
+    background-color:#000000;
+}
+.row-footer{
+    padding:20px 0px 20px 0px;
+    min-height:300px; 
+}
+.row-content{
+    padding:40px 0px 40px 0px;
+    min-height:300px; 
+}
+.fa{
+    color: white;
+}
+.up{
+    font-size:50px; 
+}
